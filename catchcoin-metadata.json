@@ -2,7 +2,7 @@
   "name": "CatchCoin",
   "symbol": "CATCH",
   "description": "CatchCoin (CATCH) - The revolutionary reward token that transforms everyday activities into earning opportunities. Built on Solana for lightning-fast transactions and minimal fees. Earn CATCH tokens through fitness tracking, learning achievements, community participation, and eco-friendly actions. More than a token - it's a lifestyle upgrade.",
-  "image": "https://raw.githubusercontent.com/Tann2019/CatchCoin/main/logo.svg",
+  "image": "https://raw.githubusercontent.com/Tann2019/CatchCoin/main/logo.png",
   "external_url": "https://tann2019.github.io/CatchCoin",
   "properties": {
     "category": "token",
@@ -28,7 +28,7 @@
     },
     {
       "trait_type": "Total Supply",
-      "value": "1,000,000"
+      "value": "100,000,000"
     },
     {
       "trait_type": "Decimals",
