@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="targetGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffa726;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle (coin) -->
+  <circle cx="256" cy="256" r="240" fill="url(#coinGradient)" stroke="#fff" stroke-width="8"/>
+  
+  <!-- Target rings -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="url(#targetGradient)" stroke-width="12" opacity="0.8"/>
+  <circle cx="256" cy="256" r="130" fill="none" stroke="url(#targetGradient)" stroke-width="10" opacity="0.6"/>
+  <circle cx="256" cy="256" r="80" fill="none" stroke="url(#targetGradient)" stroke-width="8" opacity="0.4"/>
+  
+  <!-- Center bullseye -->
+  <circle cx="256" cy="256" r="30" fill="url(#targetGradient)"/>
+  
+  <!-- Letter C -->
+  <path d="M 220 180 Q 180 180 180 220 L 180 292 Q 180 332 220 332 L 260 332" 
+        fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Shine effect -->
+  <ellipse cx="200" cy="180" rx="40" ry="80" fill="#fff" opacity="0.3" transform="rotate(-45 200 180)"/>
+</svg>
